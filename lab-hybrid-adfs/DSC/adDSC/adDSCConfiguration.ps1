@@ -297,7 +297,7 @@ configuration DomainController
             SetScript  = {
 				# Install AAD Tools
 					md c:\temp -ErrorAction Ignore
-					Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+					Install-PackageProvider -Name NuGet -MinimumVersion 2.12.1 -Force
 
 					#Install-Module -Name Azure -AllowClobber -Force
 					#Install-Module -Name AzureRM -AllowClobber -Force
